@@ -24,10 +24,8 @@
       <key name="t">
         <key name="5"/>
       </key>
-      <key name="z">
+      <key name="y">
         <key name="6"/>
-        <key name="zabovedot"/>
-        <key name="zacute"/>
       </key>
       <key name="u">
         <key name="7"/>
@@ -98,7 +96,11 @@
     </row>
     <row>
       <key align="left" name="Caribou_ShiftUp" toggle="level2" width="1.5"/>
-      <key name="y"/>
+      <key name="z">
+        <key name="z"/>
+        <key name="zabovedot"/>
+        <key name="zacute"/>
+      </key>
       <key name="x">
         <key name="zacute"/>
       </key>
