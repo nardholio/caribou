@@ -1,0 +1,249 @@
+# Georgian translation for caribou.
+# Copyright (C) 2022 caribou's COPYRIGHT HOLDER
+# This file is distributed under the same license as the caribou package.
+# NorwayFun <temuri.doghonadze@gmail.com>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: caribou master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/caribou/issues\n"
+"POT-Creation-Date: 2021-03-09 19:45+0000\n"
+"PO-Revision-Date: 2022-11-26 09:26+0100\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <ka@li.org>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2\n"
+
+#: ../caribou/settings/caribou_settings.py:5
+msgid "Caribou Preferences"
+msgstr "Caribou -ის მორგება"
+
+#: ../caribou/settings/caribou_settings.py:6
+msgid "Scanning"
+msgstr "სკანირება"
+
+#: ../caribou/settings/caribou_settings.py:8
+msgid "Enable scanning"
+msgstr "სკანირების ჩართვა"
+
+#: ../caribou/settings/caribou_settings.py:9
+msgid "Enable switch scanning"
+msgstr "გადართვის სკანირების ჩართვა"
+
+#: ../caribou/settings/caribou_settings.py:12
+msgid "General"
+msgstr "ზოგადი"
+
+#: ../caribou/settings/caribou_settings.py:13
+msgid "Scanning mode"
+msgstr "სკანირების რეჟიმი"
+
+#: ../caribou/settings/caribou_settings.py:15
+msgid "Scanning type, subgroups, rows or linear"
+msgstr "სკანირების ტიპი, ქვეჯგუფები, მწკრივები თუ ხაზოვანი"
+
+#: ../caribou/settings/caribou_settings.py:16
+msgid "Subgroups"
+msgstr "ქვეჯგუფები"
+
+#: ../caribou/settings/caribou_settings.py:17
+msgid "Rows"
+msgstr "სტრიქონები"
+
+#: ../caribou/settings/caribou_settings.py:18
+msgid "Linear"
+msgstr "ხაზოვანი"
+
+#: ../caribou/settings/caribou_settings.py:20
+msgid "Step time"
+msgstr "ბიჯის დრო"
+
+#: ../caribou/settings/caribou_settings.py:21
+msgid "Time between key transitions"
+msgstr "დრო ძირითად ტრანზაქციებს შორის"
+
+#: ../caribou/settings/caribou_settings.py:24
+msgid "Inverse scanning"
+msgstr "ინვერსიული სკანირება"
+
+#: ../caribou/settings/caribou_settings.py:25
+msgid "Step with the switch, activate by dwelling"
+msgstr ""
+
+#: ../caribou/settings/caribou_settings.py:28
+msgid "Auto-restart scanning"
+msgstr "სკანირების ავტომატურად თავიდან გაშვეება"
+
+#: ../caribou/settings/caribou_settings.py:29
+msgid "Automatically restart scanning after item activation"
+msgstr "ჩანაწერის აქტივაციის შემდეგ სკანირების ავტომატურად თავიდან დაწყება"
+
+#: ../caribou/settings/caribou_settings.py:30
+msgid "Scan cycles"
+msgstr "სკანირების ციკლები"
+
+#: ../caribou/settings/caribou_settings.py:31
+msgid "One"
+msgstr "ერთი"
+
+#: ../caribou/settings/caribou_settings.py:32
+msgid "Two"
+msgstr "ორი"
+
+#: ../caribou/settings/caribou_settings.py:33
+msgid "Three"
+msgstr "სამი"
+
+#: ../caribou/settings/caribou_settings.py:34
+msgid "Four"
+msgstr "ოთხი"
+
+#: ../caribou/settings/caribou_settings.py:35
+msgid "Five"
+msgstr "ხუთი"
+
+#: ../caribou/settings/caribou_settings.py:38
+msgid "Input"
+msgstr "შეყვანა"
+
+#: ../caribou/settings/caribou_settings.py:39
+msgid "Switch device"
+msgstr "მოწყობილობის შეცვლა"
+
+#: ../caribou/settings/caribou_settings.py:41
+msgid "Switch device, keyboard or mouse"
+msgstr "მოწყობილობის გადართვა, კლავიატურა, ან თაგუნა"
+
+#: ../caribou/settings/caribou_settings.py:43
+msgid "Keyboard"
+msgstr "კლავიატურა"
+
+#: ../caribou/settings/caribou_settings.py:44
+msgid "Mouse"
+msgstr "თაგუნა"
+
+#: ../caribou/settings/caribou_settings.py:46
+msgid "Switch key"
+msgstr "გადართვის ღილაკი"
+
+#: ../caribou/settings/caribou_settings.py:48
+msgid "Key to use with scanning mode"
+msgstr "სკანირების რეჟიმში გამოსაყენებელი ღილაკი"
+
+#: ../caribou/settings/caribou_settings.py:50
+msgid "Right shift"
+msgstr "მარჯვენა Shift"
+
+#: ../caribou/settings/caribou_settings.py:51
+msgid "Left shift"
+msgstr "მარცხენა Shift"
+
+#: ../caribou/settings/caribou_settings.py:52
+msgid "Space"
+msgstr "გამოტოვება"
+
+#: ../caribou/settings/caribou_settings.py:53
+msgid "Alt Gr"
+msgstr "Alt Gr"
+
+#: ../caribou/settings/caribou_settings.py:54
+msgid "Num lock"
+msgstr "Num Lock"
+
+#: ../caribou/settings/caribou_settings.py:55
+msgid "Switch button"
+msgstr "გადართვის ღილაკი"
+
+#: ../caribou/settings/caribou_settings.py:58
+msgid "Mouse button to use in the scanning mode"
+msgstr "სკანირების რეჟიმში გამოყენებული თაგუნას ღილაკი"
+
+#: ../caribou/settings/caribou_settings.py:60
+msgid "Button 1"
+msgstr "ღილაკი 1"
+
+#: ../caribou/settings/caribou_settings.py:61
+msgid "Button 2"
+msgstr "ღილაკი 2"
+
+#: ../caribou/settings/caribou_settings.py:62
+msgid "Button 3"
+msgstr "ღილაკი 3"
+
+#: ../caribou/__init__.py:8
+msgid "Caribou"
+msgstr "კარიბუ"
+
+#: ../caribou/antler/antler_settings.py:6
+msgid "Antler Preferences"
+msgstr "Antler -ის მორგება"
+
+#: ../caribou/antler/antler_settings.py:7
+msgid "Antler"
+msgstr "Antler"
+
+#: ../caribou/antler/antler_settings.py:8
+msgid "Appearance"
+msgstr "გარემოს იერსახე"
+
+#: ../caribou/antler/antler_settings.py:10
+msgid "Keyboard Type"
+msgstr "კლავიატურის ტიპი"
+
+#: ../caribou/antler/antler_settings.py:11
+msgid "The keyboard geometry Caribou should use"
+msgstr "კლავიატურის გეომეტრია Caribou -სთვის"
+
+#: ../caribou/antler/antler_settings.py:12
+msgid ""
+"The keyboard geometry determines the shape and complexity of the keyboard, "
+"it could range from a “natural” look and feel good for composing simple "
+"text, to a fullscale keyboard."
+msgstr ""
+
+#. Translators: Keyboard type (similar to touch/tactile device)
+#: ../caribou/antler/antler_settings.py:17
+msgid "Touch"
+msgstr "შეხება"
+
+#. Translators: Keyboard type (conventional keyboard)
+#: ../caribou/antler/antler_settings.py:19
+msgid "Full scale"
+msgstr "სრული მასშტაბი"
+
+#. Translators: Keyboard type (scanned grid by rows/columns)
+#: ../caribou/antler/antler_settings.py:21
+msgid "Scan"
+msgstr "სკანირება"
+
+#: ../caribou/antler/antler_settings.py:22
+#: ../caribou/antler/antler_settings.py:23
+msgid "Use System Theme"
+msgstr "სისტემის თემის გამოყენება"
+
+#: ../caribou/antler/antler_settings.py:24
+msgid "Minimum Alpha"
+msgstr "მინიმალური ალფა"
+
+#: ../caribou/antler/antler_settings.py:25
+msgid "Minimal opacity of keyboard"
+msgstr "კლავიატურის მინიმალური გაუმჭვირვალობა"
+
+#: ../caribou/antler/antler_settings.py:27
+msgid "Maximum Alpha"
+msgstr "მაქსიმალური ალფა"
+
+#: ../caribou/antler/antler_settings.py:28
+msgid "Maximal opacity of keyboard"
+msgstr "კლავიატურის მაქსიმალური გაუმჭვირვალობა"
+
+#: ../caribou/antler/antler_settings.py:30
+msgid "Maximum Distance"
+msgstr "მაქსიმალური დაშორება"
+
+#: ../caribou/antler/antler_settings.py:31
+msgid "Maximum distance when keyboard is hidden"
+msgstr "მაქსიმალური დაშორება, როცა კლავიატურა დამალულია"
