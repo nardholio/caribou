@@ -1,21 +1,21 @@
 # Georgian translation for caribou.
-# Copyright (C) 2022 caribou's COPYRIGHT HOLDER
+# Copyright (C) 2022 caribou authors
 # This file is distributed under the same license as the caribou package.
-# NorwayFun <temuri.doghonadze@gmail.com>, 2022.
+# Ekaterine Papava <papava.e@gtu.ge>, 2022
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: caribou master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/caribou/issues\n"
 "POT-Creation-Date: 2021-03-09 19:45+0000\n"
-"PO-Revision-Date: 2022-11-26 09:26+0100\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"PO-Revision-Date: 2022-12-13 00:29+0100\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
 "Language-Team: Georgian <ka@li.org>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.2\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: ../caribou/settings/caribou_settings.py:5
 msgid "Caribou Preferences"
@@ -71,7 +71,7 @@ msgstr "ინვერსიული სკანირება"
 
 #: ../caribou/settings/caribou_settings.py:25
 msgid "Step with the switch, activate by dwelling"
-msgstr ""
+msgstr "ნაბიჯი გადართვით. გაააქტიურეთ დაჭერით"
 
 #: ../caribou/settings/caribou_settings.py:28
 msgid "Auto-restart scanning"
@@ -203,6 +203,8 @@ msgid ""
 "it could range from a “natural” look and feel good for composing simple "
 "text, to a fullscale keyboard."
 msgstr ""
+"კლავიატურის გეომეტრია კლავიატურის ფორმასა და სირთულეს განსაზღვრავს. ის "
+"\"ბუნებრივიდან\" სრულ კლავიატურამდე შეიძლება იცვლებოდეს."
 
 #. Translators: Keyboard type (similar to touch/tactile device)
 #: ../caribou/antler/antler_settings.py:17
