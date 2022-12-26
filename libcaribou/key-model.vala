@@ -179,6 +179,7 @@ namespace Caribou {
                 hold_tid = GLib.Timeout.add (1000, on_key_held);
 
             key_pressed(this);
+            show_subkeys = false;
         }
 
         public void release () {
