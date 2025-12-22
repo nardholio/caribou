@@ -1,12 +1,9 @@
-AC_PREREQ([2.63])
-AC_INIT([caribou],
-        [0.4.22],
-        [https://bugzilla.gnome.org/enter_bug.cgi?product=caribou],
-        [caribou])
+AC_PREREQ([2.72])
+AC_INIT([caribou],[0.4.22],[https://bugzilla.gnome.org/enter_bug.cgi?product=caribou],[caribou])
 
 AC_CONFIG_MACRO_DIR([m4])
 
-AM_PROG_LIBTOOL
+LT_INIT
 
 # If library source has changed since last release, increment revision
 # If public symbols have been added, removed or changed since last release,
@@ -80,7 +77,8 @@ dnl == i18n ==
 GETTEXT_PACKAGE=caribou
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [The gettext package])
-AM_GLIB_GNU_GETTEXT
+AM_GNU_GETTEXT_VERSION([0.19])
+AM_GNU_GETTEXT([external])
 
 dnl == GTK modules ==
 AC_ARG_ENABLE(gtk3_module,
@@ -146,7 +144,7 @@ AS_IF([test "x$enable_docs" = "xyes" -a "x$have_valadoc" != "xyes"], [
 ])
 
 dnl == generate makefiles ==
-AC_OUTPUT([
+AC_CONFIG_FILES([
 Makefile
 po/Makefile.in
 caribou/Makefile
@@ -173,3 +171,4 @@ docs/Makefile
 vapi/Makefile
 daemon/Makefile
 ])
+AC_OUTPUT
