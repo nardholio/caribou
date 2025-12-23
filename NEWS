@@ -1,4 +1,11 @@
 =============
+Version 0.4.22
+=============
+- Switch to master branch (~70 commits)
+- Update autoconf files to avoid warnings
+- Allow caribou to display in autostart menu.
+
+=============
 Version 0.4.21
 =============
 - Translation updates (Gujarati, Arabic, Friulian, Tajik, Romanian, Dutch, Occitan)
